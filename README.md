@@ -13,6 +13,6 @@ Able to workaround by changing ExampleLibrary's target framework from
 
 to
 
-<TargetFrameworks>net9.0;net9.0-android;net9.0-ios;net9.0-maccatalyst</TargetFrameworks>
+<TargetFrameworks>net9.0;net9.0-android;net9.0-ios;net9.0-maccatalyst;net9.0-windows10.0.19041.0</TargetFrameworks>
 
 but not a viable solution for my real world project because it creates build issues for other non maui executables that use it
