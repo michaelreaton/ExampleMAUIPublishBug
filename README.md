@@ -9,10 +9,10 @@ Assets file 'ExampleMAUIPublishBug\ExampleLibrary\obj\project.assets.json' doesn
 
 Able to workaround by changing ExampleLibrary's target framework from
 
-<TargetFramework>net9.0</TargetFramework>
+<TargetFrameworks>net9.0</TargetFrameworks>
 
 to
 
-<TargetFramework>net9.0;net9.0-android;net9.0-ios;net9.0-maccatalyst</TargetFramework>
+<TargetFrameworks>net9.0;net9.0-android;net9.0-ios;net9.0-maccatalyst</TargetFrameworks>
 
 but not a viable solution for my real world project because it creates build issues for other non maui executables that use it
